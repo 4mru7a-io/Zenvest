@@ -2,6 +2,20 @@
 
 A modern, beginner-friendly investment app designed for Gen Z (18-25) with AI guidance, gamification, and mock trading features. Inspired by apps like Groww but reimagined for a new generation.
 
+---
+
+## 🌐 Live Demo
+
+**[👉 Click Here to Try Zenvest Live on Vercel! 👈](https://zenvest.vercel.app)**
+
+**Demo Credentials:**
+- Email: `demo`
+- Password: `demo123`
+
+*No signup needed! Everything works with mock data. All real features included!*
+
+---
+
 ## 🎯 Features
 
 ### Core Functionality
