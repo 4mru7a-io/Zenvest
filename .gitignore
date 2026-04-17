@@ -2,28 +2,48 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # Production
 dist/
 build/
+.next/
 
-# Environment variables
+# Environment variables (NEVER COMMIT!)
 .env
 .env.local
 .env.*.local
+.env.production.local
 
-# IDE
+# IDE & Editor
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+.sublime-*
+*.iml
 
 # Logs
-logs
+logs/
 *.log
+lerna-debug.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+*.lcov
 
 # Misc
 .cache/
 .parcel-cache/
+.vercel/
+.firebase/
+.firebaserc
+Thumbs.db
+*.bak
+*.orig
+
