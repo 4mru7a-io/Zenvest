@@ -1,0 +1,44 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_FIREBASE_API_KEY": {
+      "description": "Firebase API Key",
+      "required": false
+    },
+    "VITE_FIREBASE_AUTH_DOMAIN": {
+      "description": "Firebase Auth Domain",
+      "required": false
+    },
+    "VITE_FIREBASE_PROJECT_ID": {
+      "description": "Firebase Project ID",
+      "required": false
+    },
+    "VITE_FIREBASE_STORAGE_BUCKET": {
+      "description": "Firebase Storage Bucket",
+      "required": false
+    },
+    "VITE_ALPHA_VANTAGE_KEY": {
+      "description": "Alpha Vantage API Key (optional)",
+      "required": false
+    },
+    "VITE_POLYGON_API_KEY": {
+      "description": "Polygon.io API Key (recommended)",
+      "required": false
+    },
+    "VITE_IEX_API_KEY": {
+      "description": "IEX Cloud API Key (optional)",
+      "required": false
+    },
+    "VITE_FINNHUB_API_KEY": {
+      "description": "Finnhub API Key (optional)",
+      "required": false
+    }
+  },
+  "git": {
+    "deploymentEnabled": true
+  }
+}
